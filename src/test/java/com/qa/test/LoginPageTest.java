@@ -44,6 +44,23 @@ public class LoginPageTest extends TestBase
 		Assert.assertEquals(homeTitle, "Guru99 Bank Manager HomePage");
 	}
 	
+	
+	@Test
+	public void verifyResetBtnTest()
+	{
+		String alertMsg = loginPage.verifyResetBtn(prop.getProperty("username"), prop.getProperty("password"));
+		Assert.assertEquals(alertMsg, "User or Password is not valid");
+	}
+	
+	
+	@Test
+	public void verifyLogoTest()
+	{
+		 boolean bankLogo = loginPage.verifyLogo();
+		Assert.assertTrue(bankLogo);
+	}
+	
+	
 	@AfterMethod()
 	public void tearDown()
 	{

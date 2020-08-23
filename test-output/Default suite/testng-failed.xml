@@ -5,9 +5,9 @@
     <classes>
       <class name="com.qa.test.LoginPageTest">
         <methods>
-          <include name="verifyLoginBtnTest"/>
-          <include name="verifyLoginPageTitleTest"/>
+          <include name="verifyLogoTest"/>
           <include name="startUp"/>
+          <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.test.LoginPageTest -->
     </classes>

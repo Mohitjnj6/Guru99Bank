@@ -22,6 +22,10 @@ public class LoginPage extends TestBase
 	@FindBy(name="btnReset")
 	WebElement resetBtn;
 	
+	@FindBy(xpath="//div[@class='logo']//img")
+	WebElement logo;
+	
+	
 	//Initialization
 	public LoginPage()
 	{
@@ -43,13 +47,23 @@ public class LoginPage extends TestBase
 		return new HomePage();
 	}
 	
-	public void verifyResetBtn(String un, String pwd)
+	public String verifyResetBtn(String un, String pwd)
 	{
 		username.sendKeys(un);
 		password.sendKeys(pwd);
 		resetBtn.click();
 		loginBtn.click();
-		
+		String alert = driver.switchTo().alert().getText();
+		System.out.println(alert);
+		driver.switchTo().alert().accept();
+		return alert;
 	}
+	
+	public boolean verifyLogo()
+	{
+		boolean bLogo = logo.isDisplayed();
+		return bLogo;
+	}
+	
 	
 }

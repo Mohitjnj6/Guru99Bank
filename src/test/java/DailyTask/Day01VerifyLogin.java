@@ -42,9 +42,18 @@ public class Day01VerifyLogin {
 		System.out.println(loginPageTitle);
 		
 		//Perform Login
-		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr280518");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");
-		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
+//		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr280518");
+//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");
+//		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
+		
+		
+//		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr280518");
+//		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");
+//		driver.findElement(By.xpath("//input[@name='btnReset']")).click();
+//		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
+//		String alert = driver.switchTo().alert().getText();
+//		System.out.println(alert);
+//		driver.switchTo().alert().accept();
 																																												
 		driver.quit();
 		
