@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30564" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:33 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30564" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:33 IST">
+      <class name="DailyTask.Day01VerifyLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="setUp" is-config="true" duration-ms="25213" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="verifyLoginTest" duration-ms="1548" started-at="2020-08-23T13:57:28 IST" finished-at="2020-08-23T13:57:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="3739" started-at="2020-08-23T13:57:30 IST" finished-at="2020-08-23T13:57:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- DailyTask.Day01VerifyLoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
