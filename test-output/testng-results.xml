@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="30564" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:33 IST">
+  <suite name="Default suite" duration-ms="15967" started-at="2020-08-23T21:57:37 IST" finished-at="2020-08-23T21:57:53 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="30564" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:33 IST">
-      <class name="DailyTask.Day01VerifyLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="setUp" is-config="true" duration-ms="25213" started-at="2020-08-23T13:57:03 IST" finished-at="2020-08-23T13:57:28 IST">
+    <test name="Default test" duration-ms="15967" started-at="2020-08-23T21:57:37 IST" finished-at="2020-08-23T21:57:53 IST">
+      <class name="com.qa.test.LoginPageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@48503868]" name="startUp" is-config="true" duration-ms="11671" started-at="2020-08-23T21:57:37 IST" finished-at="2020-08-23T21:57:48 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="verifyLoginTest" duration-ms="1548" started-at="2020-08-23T13:57:28 IST" finished-at="2020-08-23T13:57:30 IST">
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:0, instance:com.qa.test.LoginPageTest@48503868]" name="verifyLoginBtnTest" duration-ms="3585" started-at="2020-08-23T21:57:48 IST" finished-at="2020-08-23T21:57:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTask.Day01VerifyLoginTest@2d6eabae]" name="tearDown" is-config="true" duration-ms="3739" started-at="2020-08-23T13:57:30 IST" finished-at="2020-08-23T13:57:33 IST">
+        </test-method> <!-- verifyLoginBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@48503868]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-08-23T21:57:52 IST" finished-at="2020-08-23T21:57:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- DailyTask.Day01VerifyLoginTest -->
+      </class> <!-- com.qa.test.LoginPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
