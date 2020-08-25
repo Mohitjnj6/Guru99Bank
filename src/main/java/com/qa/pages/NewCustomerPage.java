@@ -6,12 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.qa.base.TestBase;
 
-public class NewCustomer extends TestBase
+public class NewCustomerPage extends TestBase
 {
 	//PageFactory
-		@FindBy(xpath="//a[contains(text(),'New Customer')]")
-		WebElement newCustomer;
-
 		@FindBy(name="name")
 		WebElement Custname;
 
@@ -54,7 +51,7 @@ public class NewCustomer extends TestBase
 		
 		
 		//Initialization
-		public NewCustomer()
+		public NewCustomerPage()
 		{
 			PageFactory.initElements(driver, this);
 		}
