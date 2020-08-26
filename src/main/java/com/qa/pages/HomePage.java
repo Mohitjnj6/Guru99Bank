@@ -113,9 +113,8 @@ public class HomePage extends TestBase
 		return new WithdrawalPage();
 	}
 	
-	public FundTransferPage verifyfundTransferBtn() throws InterruptedException
+	public FundTransferPage verifyfundTransferBtn() 
 	{
-		Thread.sleep(5000);
 		fundTransferBtn.click();
 		return new FundTransferPage();
 	}

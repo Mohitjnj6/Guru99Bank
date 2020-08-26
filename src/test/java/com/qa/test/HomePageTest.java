@@ -29,7 +29,7 @@ public class HomePageTest extends TestBase
 	}
 	
 	@Test
-	public void verifyHomePageTitleTest()
+	public void verifyHomePageTitleTest()//working
 	{
 		String homeTitle = homePage.verifyHomePageTitle();
 		System.out.println(homeTitle);
@@ -37,7 +37,7 @@ public class HomePageTest extends TestBase
 	}
 	
 	@Test
-	public void verifynewCustomerBtnTest()
+	public void verifynewCustomerBtnTest()//working
 	{
 		homePage.verifynewCustomerBtn();
 		String newCustomerTitle = driver.getTitle();
@@ -47,7 +47,7 @@ public class HomePageTest extends TestBase
 	
 	
 	@Test
-	public void verifyeditCustomerBtnTest() throws InterruptedException
+	public void verifyeditCustomerBtnTest() throws InterruptedException //working
 	{
 		homePage.verifyeditCustomerBtn();
 		Thread.sleep(2000);
@@ -67,7 +67,7 @@ public class HomePageTest extends TestBase
 //	}
 //
 	@Test
-	public void verifynewAccountBtnTest()
+	public void verifynewAccountBtnTest() //working
 	{
 		homePage.verifynewAccountBtn();
 		String newAccountTitle = driver.getTitle();
@@ -76,17 +76,16 @@ public class HomePageTest extends TestBase
 	}
 
 	@Test
-	public void verifyeditAccountBtnTest() throws InterruptedException
+	public void verifyeditAccountBtnTest() //working
 	{
 		homePage.verifyeditAccountBtn();
-		Thread.sleep(2000);
 		String editAccountTitle = driver.getTitle();
 		System.out.println(editAccountTitle);
 		Assert.assertEquals(editAccountTitle, "Guru99 Edit Account Page");
 	}
 
 	@Test
-	public void verifydeleteAccountBtnTest()
+	public void verifydeleteAccountBtnTest() //working
 	{
 		homePage.verifydeleteAccountBtn();
 		String deleteAccountTitle = driver.getTitle();
@@ -95,68 +94,66 @@ public class HomePageTest extends TestBase
 	}
 
 //	@Test
-//	public void verifyDepositBtnTest()
+//	public void verifyDepositBtnTest() // not clickable
 //	{
 //		homePage.verifyDepositBtn();
 //		String DepositrTitle = driver.getTitle();
 //		System.out.println(DepositrTitle);
-//		Assert.assertEquals(DepositrTitle, "Guru99 Bank New Deposite Page");
+//		Assert.assertEquals(DepositrTitle, "Guru99 Bank Amount Deposit Page");
+//	}
+
+//	@Test
+//	public void verifyfundTransferBtnTest() //not clickable
+//	{
+//		homePage.verifyfundTransferBtn();
+//		String fundTransferTitle = driver.getTitle();
+//		System.out.println(fundTransferTitle);
+//		Assert.assertEquals(fundTransferTitle, "Guru99 Bank New Customer Entry Page");
 //	}
 
 	@Test
-	public void verifyfundTransferBtnTest() throws InterruptedException
+	public void verifychangePasswordBtnTest() //working
 	{
-		homePage.verifyfundTransferBtn();
-		Thread.sleep(5000);
-		String fundTransferTitle = driver.getTitle();
-		System.out.println(fundTransferTitle);
-		//Assert.assertEquals(fundTransferTitle, "Guru99 Bank New Customer Entry Page");
+		homePage.verifychangePasswordBtn();
+		String changePasswordTitle = driver.getTitle();
+		System.out.println(changePasswordTitle);
+		Assert.assertEquals(changePasswordTitle, "Guru99 Bank New Customer Entry Page");
 	}
 
-//	@Test
-//	public void verifynewCustomerBtnTest()
-//	{
-//		homePage.verifynewCustomerBtn();
-//		String newCustomerTitle = driver.getTitle();
-//		System.out.println(newCustomerTitle);
-//		Assert.assertEquals(newCustomerTitle, "Guru99 Bank New Customer Entry Page");
-//	}
-//
-//	@Test
-//	public void verifynewCustomerBtnTest()
-//	{
-//		homePage.verifynewCustomerBtn();
-//		String newCustomerTitle = driver.getTitle();
-//		System.out.println(newCustomerTitle);
-//		Assert.assertEquals(newCustomerTitle, "Guru99 Bank New Customer Entry Page");
-//	}
-//
-//	@Test
-//	public void verifynewCustomerBtnTest()
-//	{
-//		homePage.verifynewCustomerBtn();
-//		String newCustomerTitle = driver.getTitle();
-//		System.out.println(newCustomerTitle);
-//		Assert.assertEquals(newCustomerTitle, "Guru99 Bank New Customer Entry Page");
-//	}
-//
-//	@Test
-//	public void verifynewCustomerBtnTest()
-//	{
-//		homePage.verifynewCustomerBtn();
-//		String newCustomerTitle = driver.getTitle();
-//		System.out.println(newCustomerTitle);
-//		Assert.assertEquals(newCustomerTitle, "Guru99 Bank New Customer Entry Page");
-//	}
-//
-//	@Test
-//	public void verifynewCustomerBtnTest()
-//	{
-//		homePage.verifynewCustomerBtn();
-//		String newCustomerTitle = driver.getTitle();
-//		System.out.println(newCustomerTitle);
-//		Assert.assertEquals(newCustomerTitle, "Guru99 Bank New Customer Entry Page");
-//	}
+	@Test
+	public void verifybalanceEnquiryBtnTest() //Working
+	{
+		homePage.verifybalanceEnquiryBtn();
+		String balanceEnquiryTitle = driver.getTitle();
+		System.out.println(balanceEnquiryTitle);
+		Assert.assertEquals(balanceEnquiryTitle, "Guru99 Bank Balance Enquiry Page");
+	}
+
+	@Test
+	public void verifyminiStatementBtnTest() //working
+	{
+		homePage.verifyminiStatementBtn();
+		String miniStatementTitle = driver.getTitle();
+		System.out.println(miniStatementTitle);
+		Assert.assertEquals(miniStatementTitle, "Guru99 Bank Mini Statement Page");
+	}
+
+	@Test
+	public void verifycustomisedStatementBtnTest() //working
+	{
+		homePage.verifycustomisedStatementBtn();
+		String customisedStatementTitle = driver.getTitle();
+		System.out.println(customisedStatementTitle);
+		Assert.assertEquals(customisedStatementTitle, "Guru99 Bank Statement Page");
+	}
+
+	@Test
+	public void verifylogoutBtnTest() //working
+	{
+		String logout = homePage.verifylogoutBtn();
+		Assert.assertEquals(logout, "You Have Succesfully Logged Out!!");
+	
+	}
 	
 	@AfterMethod()
 	public void tearDown()

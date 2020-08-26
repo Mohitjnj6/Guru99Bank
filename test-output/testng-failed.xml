@@ -5,8 +5,12 @@
     <classes>
       <class name="com.qa.test.HomePageTest">
         <methods>
+          <include name="verifynewCustomerBtnTest"/>
+          <include name="verifyminiStatementBtnTest"/>
+          <include name="verifyeditCustomerBtnTest"/>
+          <include name="verifylogoutBtnTest"/>
+          <include name="verifynewAccountBtnTest"/>
           <include name="startUp"/>
-          <include name="verifyeditAccountBtnTest"/>
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.qa.test.HomePageTest -->
