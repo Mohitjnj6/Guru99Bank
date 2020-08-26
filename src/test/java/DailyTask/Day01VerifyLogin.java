@@ -46,6 +46,7 @@ public class Day01VerifyLogin {
 		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");
 		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
 		
+		System.out.println(driver.findElement(By.xpath("//tr[@class='heading3']//td")).getText());
 		
 //		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr280518");
 //		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");

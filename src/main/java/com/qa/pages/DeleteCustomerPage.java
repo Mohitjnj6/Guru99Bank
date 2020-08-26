@@ -39,10 +39,14 @@ public class DeleteCustomerPage extends TestBase
 				submitBtn.click();
 			}
 
-			public void verifyResettBtn()
+			public String verifyResettBtn()
 			{
 				customerId.sendKeys("");
 				ResetrBtn.click();
+				String alert = driver.switchTo().alert().getText();
+				System.out.println(alert);
+				driver.switchTo().alert().accept();
+				return alert;
 			}
 
 }

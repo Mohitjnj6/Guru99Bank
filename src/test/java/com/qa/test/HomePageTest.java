@@ -28,12 +28,21 @@ public class HomePageTest extends TestBase
 		
 	}
 	
-	@Test
+	@Test(priority = 4)
 	public void verifyHomePageTitleTest()//working
 	{
 		String homeTitle = homePage.verifyHomePageTitle();
 		System.out.println(homeTitle);
 		Assert.assertEquals(homeTitle, "Guru99 Bank Manager HomePage");
+	}
+	
+	@Test(priority = 5)
+	public void verifyManagerIdTest()//working
+	{
+		String ManagerId = homePage.verifyManagerId();
+		System.out.println(ManagerId);
+		Assert.assertEquals(ManagerId, "Manger Id : "+prop.getProperty("username"));
+		
 	}
 	
 	@Test
@@ -46,7 +55,7 @@ public class HomePageTest extends TestBase
 	}
 	
 	
-	@Test
+	@Test(priority = 1)
 	public void verifyeditCustomerBtnTest() throws InterruptedException //working
 	{
 		homePage.verifyeditCustomerBtn();
@@ -66,7 +75,7 @@ public class HomePageTest extends TestBase
 //		Assert.assertEquals(deleteCustomerTitle, "Guru99 Bank Delete Customer Page");
 //	}
 //
-	@Test
+	@Test(priority = 4)
 	public void verifynewAccountBtnTest() //working
 	{
 		homePage.verifynewAccountBtn();
@@ -129,7 +138,7 @@ public class HomePageTest extends TestBase
 		Assert.assertEquals(balanceEnquiryTitle, "Guru99 Bank Balance Enquiry Page");
 	}
 
-	@Test
+	@Test(priority = 3)
 	public void verifyminiStatementBtnTest() //working
 	{
 		homePage.verifyminiStatementBtn();
@@ -147,8 +156,8 @@ public class HomePageTest extends TestBase
 		Assert.assertEquals(customisedStatementTitle, "Guru99 Bank Statement Page");
 	}
 
-	@Test
-	public void verifylogoutBtnTest() //working
+	@Test(priority = 2)
+	public void verifylogoutBtnTest() throws InterruptedException //working
 	{
 		String logout = homePage.verifylogoutBtn();
 		Assert.assertEquals(logout, "You Have Succesfully Logged Out!!");

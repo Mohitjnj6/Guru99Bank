@@ -12,6 +12,9 @@ public class HomePage extends TestBase
 	@FindBy(xpath="//a[contains(text(),'New Customer')]")
 	WebElement newCustomerBtn;
 	
+	@FindBy(xpath="//tr[@class='heading3']//td")//yet to update
+	WebElement managerId;
+	
 	@FindBy(xpath="//a[contains(text(),'Edit Customer')]")
 	WebElement editCustomerBtn;
 	
@@ -62,6 +65,12 @@ public class HomePage extends TestBase
 	public String verifyHomePageTitle()
 	{
 		String title = driver.getTitle();
+		return title;
+	}
+	
+	public String verifyManagerId()
+	{
+		String title = managerId.getText();
 		return title;
 	}
 	
@@ -143,9 +152,10 @@ public class HomePage extends TestBase
 		return new CustomisedStatementPage();
 	}
 	
-	public String verifylogoutBtn()
+	public String verifylogoutBtn() throws InterruptedException
 	{
 		logoutBtn.click();
+		Thread.sleep(3000);
 		String alert = driver.switchTo().alert().getText();
 		System.out.println(alert);
 		driver.switchTo().alert().accept();
