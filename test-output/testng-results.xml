@@ -2,48 +2,48 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="52293" started-at="2020-08-28T19:15:33 IST" finished-at="2020-08-28T19:16:25 IST">
+  <suite name="Default suite" duration-ms="51162" started-at="2020-08-28T20:57:51 IST" finished-at="2020-08-28T20:58:42 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="52293" started-at="2020-08-28T19:15:33 IST" finished-at="2020-08-28T19:16:25 IST">
-      <class name="com.qa.test.EditCustomerPageTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="18739" started-at="2020-08-28T19:15:33 IST" finished-at="2020-08-28T19:15:51 IST">
+    <test name="Default test" duration-ms="51162" started-at="2020-08-28T20:57:51 IST" finished-at="2020-08-28T20:58:42 IST">
+      <class name="com.qa.test.DeleteCustomerPageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="17373" started-at="2020-08-28T20:57:51 IST" finished-at="2020-08-28T20:58:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyEditCustomerPageTitleTest()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="verifyEditCustomerPageTitleTest" duration-ms="2041" started-at="2020-08-28T19:15:51 IST" finished-at="2020-08-28T19:15:53 IST">
+        <test-method status="PASS" signature="verifyEditCustomerPageTitleTest()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="verifyEditCustomerPageTitleTest" duration-ms="2038" started-at="2020-08-28T20:58:08 IST" finished-at="2020-08-28T20:58:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyEditCustomerPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="683" started-at="2020-08-28T19:15:53 IST" finished-at="2020-08-28T19:15:54 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="693" started-at="2020-08-28T20:58:11 IST" finished-at="2020-08-28T20:58:11 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="14351" started-at="2020-08-28T19:15:54 IST" finished-at="2020-08-28T19:16:08 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="13979" started-at="2020-08-28T20:58:11 IST" finished-at="2020-08-28T20:58:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="verifyResetBtnTest" duration-ms="828" started-at="2020-08-28T19:16:08 IST" finished-at="2020-08-28T19:16:09 IST">
+        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="verifyResetBtnTest" duration-ms="920" started-at="2020-08-28T20:58:25 IST" finished-at="2020-08-28T20:58:26 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="695" started-at="2020-08-28T19:16:09 IST" finished-at="2020-08-28T19:16:10 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="830" started-at="2020-08-28T20:58:26 IST" finished-at="2020-08-28T20:58:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="13358" started-at="2020-08-28T19:16:10 IST" finished-at="2020-08-28T19:16:23 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="startUp" is-config="true" duration-ms="13366" started-at="2020-08-28T20:58:27 IST" finished-at="2020-08-28T20:58:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifySubmitBtnTest()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="verifySubmitBtnTest" duration-ms="891" started-at="2020-08-28T19:16:23 IST" finished-at="2020-08-28T19:16:24 IST">
+        <test-method status="PASS" signature="verifySubmitBtnTest()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="verifySubmitBtnTest" duration-ms="738" started-at="2020-08-28T20:58:40 IST" finished-at="2020-08-28T20:58:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubmitBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.EditCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="648" started-at="2020-08-28T19:16:24 IST" finished-at="2020-08-28T19:16:25 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteCustomerPageTest@64729b1e]" name="tearDown" is-config="true" duration-ms="1148" started-at="2020-08-28T20:58:41 IST" finished-at="2020-08-28T20:58:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.test.EditCustomerPageTest -->
+      </class> <!-- com.qa.test.DeleteCustomerPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

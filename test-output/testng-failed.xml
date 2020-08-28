@@ -3,15 +3,14 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.test.EditCustomerPageTest">
+      <class name="com.qa.test.DeleteCustomerPageTest">
         <methods>
           <include name="tearDown"/>
-          <include name="verifyEditCustomerPageTitleTest"/>
+          <include name="verifyResetBtnTest"/>
           <include name="verifySubmitBtnTest"/>
           <include name="startUp"/>
-          <include name="verifyResetBtnTest"/>
         </methods>
-      </class> <!-- com.qa.test.EditCustomerPageTest -->
+      </class> <!-- com.qa.test.DeleteCustomerPageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
