@@ -7,7 +7,9 @@
         <methods>
           <include name="tearDown"/>
           <include name="verifyEditCustomerPageTitleTest"/>
+          <include name="verifySubmitBtnTest"/>
           <include name="startUp"/>
+          <include name="verifyResetBtnTest"/>
         </methods>
       </class> <!-- com.qa.test.EditCustomerPageTest -->
     </classes>
