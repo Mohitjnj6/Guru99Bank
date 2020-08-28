@@ -27,7 +27,7 @@ public class DeleteCustomerPageTest extends TestBase
 		initialization();
 	   loginPage = new LoginPage();
 	    homePage = loginPage.verifyLoginBtn(prop.getProperty("username"), prop.getProperty("password"));
-	    homePage.verifyeditCustomerBtn();
+	    homePage.verifyeditCustomerBtn();// yet to modify
 	    deleteCustomerPage = new DeleteCustomerPage();
 	}
 	
