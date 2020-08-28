@@ -48,6 +48,9 @@ public class NewCustomerPage extends TestBase
 		@FindBy(name="res")
 		WebElement reset;
 		
+		@FindBy(xpath="//p[@class='heading3']")
+		WebElement success;
+		
 		
 		
 		//Initialization
@@ -63,7 +66,7 @@ public class NewCustomerPage extends TestBase
 			return title;
 		}
 		
-		public void verifySubmitBtn(String cName, String db, String addrs, String cty,
+		public String verifySubmitBtn(String cName, String db, String addrs, String cty,
 						   String stt, String pinNo, String phone, String email,String pwd)
 		{
 			Custname.sendKeys(cName);
@@ -76,6 +79,8 @@ public class NewCustomerPage extends TestBase
 			emailId.sendKeys(email);
 			password.sendKeys(pwd);
 			submit.click();
+			String successMsg = success.getText();
+			return successMsg;
 			
 		}
 		

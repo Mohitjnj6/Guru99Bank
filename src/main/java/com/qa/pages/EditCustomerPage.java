@@ -33,15 +33,24 @@ public class EditCustomerPage  extends TestBase
 			return title;
 		}
 		
-		public void verifySubmitBtn()
+		public String verifySubmitBtn()
 		{
-			customerId.sendKeys("");
+			customerId.sendKeys("1230000000");
 			submitBtn.click();
+			String alert = driver.switchTo().alert().getText();
+			System.out.println(alert);
+			driver.switchTo().alert().accept();
+			return alert;
 		}
 
-		public void verifyResettBtn()
+		public String verifyResettBtn()
 		{
 			customerId.sendKeys("");
 			ResetrBtn.click();
+			submitBtn.click();
+			String alert = driver.switchTo().alert().getText();
+			System.out.println(alert);
+			driver.switchTo().alert().accept();
+			return alert;
 		}
 }
