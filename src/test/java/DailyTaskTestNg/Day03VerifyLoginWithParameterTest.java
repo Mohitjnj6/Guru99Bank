@@ -1,5 +1,7 @@
 package DailyTaskTestNg;
 
+import java.util.ArrayList;
+import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -41,13 +43,14 @@ public class Day03VerifyLoginWithParameterTest  extends TestBase
 	}
 	
 	@DataProvider
-	public void testdata()
+	public Iterator<Object[]> testData()
 	{
-		TestUtil.getLoginDataFromExcel()
+		ArrayList<Object[]> data = TestUtil.getLoginDataFromExcel();
+		return data.iterator();
 	}
 	
 	
-	@Test
+	@Test(dataProvider= "testData")
 	public void verifyLoginTest(String un, String pwd)
 	{
 		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(un);

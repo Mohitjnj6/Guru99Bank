@@ -3,15 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.qa.pages.DeleteAccountPageTest">
+      <class name="DailyTaskTestNg.Day03VerifyLoginWithParameterTest">
         <methods>
-          <include name="verifyDeleteAccountPageTitleTest"/>
+          <include name="setUp"/>
           <include name="tearDown"/>
-          <include name="verifyResetBtnTest"/>
-          <include name="verifySubmitBtnTest"/>
-          <include name="startUp"/>
+          <include name="verifyLoginTest" invocation-numbers="1 2 3"/>
         </methods>
-      </class> <!-- com.qa.pages.DeleteAccountPageTest -->
+      </class> <!-- DailyTaskTestNg.Day03VerifyLoginWithParameterTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
