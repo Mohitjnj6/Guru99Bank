@@ -10,6 +10,9 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
+import com.qa.base.TestBase;
+import com.qa.util.TestUtil;
+
 /**
  * 
  * @author Mohit Juneja
@@ -21,9 +24,11 @@ import org.testng.annotations.Test;
           3) Enter valid Password
           4) Click Login
           5) Verify	 (new task for day 02)
- */
+          (New) //As there should be no hard coded value, so
+          config.properties, base class & TestUtil added from Day 02) 
+ */		  
 
-public class Day02VerifyLoginTest 
+public class Day02VerifyLoginTest extends TestBase
 {
 	public WebDriver driver;
 	
@@ -39,10 +44,10 @@ public class Day02VerifyLoginTest
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
+		driver.manage().timeouts().implicitlyWait(TestUtil.implicitly_Wait, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(TestUtil.pageLoad_Timeout , TimeUnit.SECONDS);
 		
-		driver.get("http://www.demo.guru99.com/V4/");
+		driver.get(prop.getProperty("url"));
 		
 		//To get login page Title
 		String loginPageTitle = driver.getTitle();
@@ -53,11 +58,12 @@ public class Day02VerifyLoginTest
 	@Test
 	public void verifyLoginTest()
 	{
-		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys("mngr280518");
-		driver.findElement(By.xpath("//input[@name='password']")).sendKeys("ApEhupu");
+		driver.findElement(By.xpath("//input[@name='uid']")).sendKeys(prop.getProperty("username"));
+		driver.findElement(By.xpath("//input[@name='password']")).sendKeys(prop.getProperty("password"));
 		driver.findElement(By.xpath("//input[@name='btnLogin']")).click();
 		
-		//to get Home Page Title	//Verify login
+		//Verification of login
+		//to get Home Page Title	
 		String homePageTitle = driver.getTitle();
 		System.out.println(homePageTitle); 
 		Assert.assertEquals(homePageTitle, "Guru99 Bank Manager HomePage");
@@ -68,7 +74,6 @@ public class Day02VerifyLoginTest
 	public void tearDown()
 	{
 		driver.quit();
-			
 	}
 	
 }

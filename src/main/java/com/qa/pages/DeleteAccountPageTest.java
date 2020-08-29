@@ -50,7 +50,7 @@ public class DeleteAccountPageTest extends TestBase
 	public void verifyResetBtnTest()
 	{
 		String submitMsg = deleteAccountPage.verifyResetBtn();
-		System.out.println(submitMsg);	Assert.assertEquals(submitMsg, "Do you really want to delete this Account?");
+		Assert.assertEquals(submitMsg, "Do you really want to delete this Account?");
 	}
 	
 		
