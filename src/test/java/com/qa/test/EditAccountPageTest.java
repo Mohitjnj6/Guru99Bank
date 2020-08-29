@@ -42,7 +42,7 @@ public class EditAccountPageTest extends TestBase
 	}
 	
 	@Test
-	public void verifySubmitBtnTest() throws InterruptedException	//from here to edit
+	public void verifySubmitBtnTest() throws InterruptedException
 	{
 		//Thread.sleep(2000);
 		String submitMsg = editAccountPage.verifySubmitBtn();

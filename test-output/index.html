@@ -5,7 +5,8 @@
   <meta charset='utf-8'>
   <title>TestNG reports</title>
 
-    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
     <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
@@ -23,6 +24,7 @@
   <body>
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
       <br/>
       <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
@@ -49,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Samsung\AppData\Local\Temp\testng-eclipse--1933021367\testng-customsuite.xml</span>
+                    <span>C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1702673583\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -102,17 +104,17 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.EditAccountPageTest" hash-for-method="verifyEditAccountPageTitleTest">verifyEditAccountPageTitleTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.pages.DeleteAccountPageTest" hash-for-method="verifyDeleteAccountPageTitleTest">verifyDeleteAccountPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.EditAccountPageTest" hash-for-method="verifyResetBtnTest">verifyResetBtnTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.pages.DeleteAccountPageTest" hash-for-method="verifyResetBtnTest">verifyResetBtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.EditAccountPageTest" hash-for-method="verifySubmitBtnTest">verifySubmitBtnTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.pages.DeleteAccountPageTest" hash-for-method="verifySubmitBtnTest">verifySubmitBtnTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -130,14 +132,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.test.EditAccountPageTest</span>
+              <span class="class-name">com.qa.pages.DeleteAccountPageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyEditAccountPageTitleTest">
-                  </a> <!-- verifyEditAccountPageTitleTest -->
-                  <span class="method-name">verifyEditAccountPageTitleTest</span>
+                  <a name="verifyDeleteAccountPageTitleTest">
+                  </a> <!-- verifyDeleteAccountPageTitleTest -->
+                  <span class="method-name">verifyDeleteAccountPageTitleTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
@@ -159,7 +161,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Samsung\AppData\Local\Temp\testng-eclipse--1933021367\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1702673583\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -168,7 +170,7 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.test.EditAccountPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.pages.DeleteAccountPageTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -210,17 +212,17 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(3);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyEditAccountPageTitleTest')
-data.setCell(0, 2, 'com.qa.test.EditAccountPageTest')
-data.setCell(0, 3, 2036);
+data.setCell(0, 1, 'verifySubmitBtnTest')
+data.setCell(0, 2, 'com.qa.pages.DeleteAccountPageTest')
+data.setCell(0, 3, 2379);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyResetBtnTest')
-data.setCell(1, 2, 'com.qa.test.EditAccountPageTest')
-data.setCell(1, 3, 1180);
+data.setCell(1, 1, 'verifyDeleteAccountPageTitleTest')
+data.setCell(1, 2, 'com.qa.pages.DeleteAccountPageTest')
+data.setCell(1, 3, 2023);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySubmitBtnTest')
-data.setCell(2, 2, 'com.qa.test.EditAccountPageTest')
-data.setCell(2, 3, 971);
+data.setCell(2, 1, 'verifyResetBtnTest')
+data.setCell(2, 2, 'com.qa.pages.DeleteAccountPageTest')
+data.setCell(2, 3, 333);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
@@ -251,46 +253,47 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.test.EditAccountPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.pages.DeleteAccountPageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyEditAccountPageTitleTest</span>
-                <span class="method-start">16324 ms</span>
+                <span class="method-name">verifyDeleteAccountPageTitleTest</span>
+                <span class="method-start">15037 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">18381 ms</span>
+                <span class="method-start">17066 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startUp</span>
-                <span class="method-start">19040 ms</span>
+                <span class="method-start">17751 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifyResetBtnTest</span>
-                <span class="method-start">37090 ms</span>
+                <span class="method-start">32936 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">38297 ms</span>
+                <span class="method-start">33271 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">startUp</span>
-                <span class="method-start">39118 ms</span>
+                <span class="method-start">33986 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySubmitBtnTest</span>
-                <span class="method-start">54694 ms</span>
+                <span class="method-start">48120 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">55667 ms</span>
+                <span class="method-start">50503 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
     </div> <!-- wrapper -->
   </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
 </html>
