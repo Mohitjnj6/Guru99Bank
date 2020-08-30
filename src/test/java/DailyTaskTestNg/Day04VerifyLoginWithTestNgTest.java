@@ -24,15 +24,15 @@ import com.qa.util.TestUtil;
  *        Test Steps
  *        1)  Go to http://www.demo.guru99.com/V4/
           2) Enter valid UserId
-          3)  and Enter valid Password ((New task))DataProvider, and Parameterization)
+          3) Enter valid Password
           4) Click Login
-          5) Verify	 
+          5) Verify	 (new task for day 02)
             //As there should be no hard coded value, so
-              config.properties, base class & TestUtil added from Day 02) 
+          config.properties, base class & TestUtil added from Day 02) 
           6)(new)Check Login with different parameters (Perform Parameterization)
  */	
 
-public class Day03VerifyLoginWithParameterTest  extends TestBase
+public class Day04VerifyLoginWithTestNgTest  extends TestBase
 {
 	public WebDriver driver;
 	
@@ -88,5 +88,6 @@ public class Day03VerifyLoginWithParameterTest  extends TestBase
 	}
 	
 }
+
 
 
