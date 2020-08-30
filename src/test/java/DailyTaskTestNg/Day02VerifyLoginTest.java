@@ -67,6 +67,8 @@ public class Day02VerifyLoginTest extends TestBase
 		String homePageTitle = driver.getTitle();
 		System.out.println(homePageTitle); 
 		Assert.assertEquals(homePageTitle, "Guru99 Bank Manager HomePage");
+		
+		
 	}
 	
 	

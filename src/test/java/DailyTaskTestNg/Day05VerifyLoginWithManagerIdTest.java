@@ -23,14 +23,14 @@ import com.qa.util.TestUtil;
  *        ************** 
  *        Test Steps
  *        1)  Go to http://www.demo.guru99.com/V4/
-          2) Enter valid UserId
-          3)  and Enter valid Password ((New task)) Parameterization)
+          2) Enter valid UserId and
+          3) and Enter valid Password (Parameterization)((New task)) DataProvider(Already there))
           4) Click Login
-          5) Verify	
-          6)(new)Check Login with different parameters (Perform Parameterization)
+          5) Verify with Manager Id (new task for day 05)
+          
  */	
 
-public class Day03VerifyLoginWithParameterTest  extends TestBase
+public class Day05VerifyLoginWithManagerIdTest  extends TestBase
 {
 	public WebDriver driver;
 	
@@ -75,7 +75,9 @@ public class Day03VerifyLoginWithParameterTest  extends TestBase
 		//to get Home Page Title	
 		String homePageTitle = driver.getTitle();
 		System.out.println(homePageTitle); 
-		Assert.assertEquals(homePageTitle, "Guru99 Bank Manager HomePage");
+		String managerId = driver.findElement(By.xpath("//tr[@class='heading3']//td")).getText();
+		System.out.println("Welcome "+managerId); 
+		Assert.assertEquals(managerId, ("Manger Id : "+prop.getProperty("username")));
 	}
 	
 	
@@ -86,5 +88,4 @@ public class Day03VerifyLoginWithParameterTest  extends TestBase
 	}
 	
 }
-
 

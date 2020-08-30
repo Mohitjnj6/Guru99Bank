@@ -23,13 +23,10 @@ import com.qa.util.TestUtil;
  *        ************** 
  *        Test Steps
  *        1)  Go to http://www.demo.guru99.com/V4/
-          2) Enter valid UserId
-          3) Enter valid Password
+          2) Enter valid UserId and
+          3) and Enter valid Password (Parameterization)((New task))Use TestNg(Already there))
           4) Click Login
-          5) Verify	 (new task for day 02)
-            //As there should be no hard coded value, so
-          config.properties, base class & TestUtil added from Day 02) 
-          6)(new)Check Login with different parameters (Perform Parameterization)
+          5) Verify
  */	
 
 public class Day04VerifyLoginWithTestNgTest  extends TestBase
