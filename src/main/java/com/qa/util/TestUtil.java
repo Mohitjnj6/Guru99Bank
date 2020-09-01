@@ -1,6 +1,13 @@
 package com.qa.util;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
 
 import com.qa.base.TestBase;
 
@@ -11,7 +18,7 @@ public class TestUtil extends TestBase
 	
 	public static String newAccType= "Savings";	//"Current";
 	
-	
+	static WebDriver driver;
 
 	static Xls_Reader reader;
 	static String sheetname = "Sheet1";
@@ -42,4 +49,17 @@ public class TestUtil extends TestBase
 		return myData;
 	
 	}	
+	
+	public static void takeScreenshot(String filename) throws IOException
+	{
+		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		FileUtils.copyFile(file,new File ("C:\\Users\\Samsung\\eclipse-workspace\\Guru99Bank\\screenShots\\"+filename+".jpg"));
+	}
+	
 }
+
+
+
+
+
+
