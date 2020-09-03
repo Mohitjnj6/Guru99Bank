@@ -50,10 +50,11 @@ public class TestUtil extends TestBase
 	
 	}	
 	
-	public static void takeScreenshot(String filename) throws IOException
+	public static void takeScreenshot() throws IOException  //String filename
 	{
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
-		FileUtils.copyFile(file,new File ("C:\\Users\\Samsung\\eclipse-workspace\\Guru99Bank\\screenShots\\"+filename+".jpg"));
+		//FileUtils.copyFile(file,new File (".\\screenShots\\"+filename+".jpg"));
+		FileUtils.copyFile(file,new File ("C:\\Users\\Samsung\\Desktop\\New folder\\screenshot.png"));
 	}
 	
 }
