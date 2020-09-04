@@ -54,7 +54,7 @@ public class TestUtil extends TestBase
 	{
 		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 		//FileUtils.copyFile(file,new File (".\\screenShots\\"+filename+".jpg"));
-		FileUtils.copyFile(file,new File ("C:\\Users\\Samsung\\Desktop\\screenshot.png"));
+		FileUtils.copyFile(file, new File ("C:\\Users\\Samsung\\Downloads\\chromedriver.jpg"));
 	}
 	
 }
