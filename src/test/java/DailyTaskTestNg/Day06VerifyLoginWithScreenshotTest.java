@@ -66,7 +66,7 @@ public class Day06VerifyLoginWithScreenshotTest extends TestBase
 		System.out.println("Welcome "+managerId); 
 		Assert.assertEquals(managerId, ("Manger Id : "+prop.getProperty("username")));
 		System.out.println("123456");
-		//TestUtil.takeScreenshot();
+		TestUtil.takeScreenshot();
 	}
 	
 	

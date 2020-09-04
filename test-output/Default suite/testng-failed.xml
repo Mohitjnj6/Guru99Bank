@@ -5,7 +5,7 @@
     <classes>
       <class name="DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest">
         <methods>
-          <include name="verifyLoginTest" invocation-numbers="1 2 3"/>
+          <include name="verifyLoginTest" invocation-numbers="0 1 2 3"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>
