@@ -1,115 +1,178 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" ignored="0" total="4" passed="0">
+<testng-results skipped="1" failed="1" ignored="0" total="12" passed="10">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="51509" started-at="2020-09-04T23:47:13 IST" finished-at="2020-09-04T23:48:05 IST">
+  <suite name="Default suite" duration-ms="243008" started-at="2020-09-05T23:12:40 IST" finished-at="2020-09-05T23:16:43 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="51509" started-at="2020-09-04T23:47:13 IST" finished-at="2020-09-04T23:48:05 IST">
-      <class name="DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="10690" started-at="2020-09-04T23:47:14 IST" finished-at="2020-09-04T23:47:25 IST">
+    <test name="Default test" duration-ms="243008" started-at="2020-09-05T23:12:40 IST" finished-at="2020-09-05T23:16:43 IST">
+      <class name="com.qa.test.HomePageTest">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="10030" started-at="2020-09-05T23:12:40 IST" finished-at="2020-09-05T23:12:51 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="3273" started-at="2020-09-04T23:47:25 IST" data-provider="testData" finished-at="2020-09-04T23:47:28 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr280518]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ApEhupu]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.NullPointerException">
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException
-at com.qa.util.TestUtil.takeScreenshot(TestUtil.java:55)
-at DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest.verifyLoginTest(Day06VerifyLoginWithScreenshotTest.java:69)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.util.ArrayList.forEach(Unknown Source)
-at org.testng.TestRunner.privateRun(TestRunner.java:767)
-at org.testng.TestRunner.run(TestRunner.java:588)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
-at org.testng.SuiteRunner.run(SuiteRunner.java:286)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
-at org.testng.TestNG.runSuites(TestNG.java:1066)
-at org.testng.TestNG.run(TestNG.java:1034)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifybalanceEnquiryBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifybalanceEnquiryBtnTest" duration-ms="1247" started-at="2020-09-05T23:12:51 IST" finished-at="2020-09-05T23:12:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="728" started-at="2020-09-04T23:47:28 IST" finished-at="2020-09-04T23:47:29 IST">
+        </test-method> <!-- verifybalanceEnquiryBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="751" started-at="2020-09-05T23:12:52 IST" finished-at="2020-09-05T23:12:53 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="9187" started-at="2020-09-04T23:47:29 IST" finished-at="2020-09-04T23:47:38 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="8721" started-at="2020-09-05T23:12:53 IST" finished-at="2020-09-05T23:13:01 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="1573" started-at="2020-09-04T23:47:38 IST" data-provider="testData" finished-at="2020-09-04T23:47:40 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr280516]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ApEhupu]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifychangePasswordBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifychangePasswordBtnTest" duration-ms="1039" started-at="2020-09-05T23:13:01 IST" finished-at="2020-09-05T23:13:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifychangePasswordBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="791" started-at="2020-09-05T23:13:02 IST" finished-at="2020-09-05T23:13:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="8069" started-at="2020-09-05T23:13:03 IST" finished-at="2020-09-05T23:13:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifycustomisedStatementBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifycustomisedStatementBtnTest" duration-ms="1222" started-at="2020-09-05T23:13:11 IST" finished-at="2020-09-05T23:13:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifycustomisedStatementBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="618" started-at="2020-09-05T23:13:12 IST" finished-at="2020-09-05T23:13:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="10361" started-at="2020-09-05T23:13:13 IST" finished-at="2020-09-05T23:13:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifydeleteAccountBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifydeleteAccountBtnTest" duration-ms="2084" started-at="2020-09-05T23:13:23 IST" finished-at="2020-09-05T23:13:25 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydeleteAccountBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="1152" started-at="2020-09-05T23:13:25 IST" finished-at="2020-09-05T23:13:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="11078" started-at="2020-09-05T23:13:27 IST" finished-at="2020-09-05T23:13:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifyeditAccountBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifyeditAccountBtnTest" duration-ms="1778" started-at="2020-09-05T23:13:38 IST" finished-at="2020-09-05T23:13:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyeditAccountBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="659" started-at="2020-09-05T23:13:39 IST" finished-at="2020-09-05T23:13:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="9606" started-at="2020-09-05T23:13:40 IST" finished-at="2020-09-05T23:13:50 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifynewCustomerBtnTest()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="verifynewCustomerBtnTest" duration-ms="1685" started-at="2020-09-05T23:13:50 IST" finished-at="2020-09-05T23:13:51 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifynewCustomerBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="765" started-at="2020-09-05T23:13:51 IST" finished-at="2020-09-05T23:13:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="8024" started-at="2020-09-05T23:13:52 IST" finished-at="2020-09-05T23:14:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifyeditCustomerBtnTest()[pri:1, instance:com.qa.test.HomePageTest@6895a785]" name="verifyeditCustomerBtnTest" duration-ms="3236" started-at="2020-09-05T23:14:00 IST" finished-at="2020-09-05T23:14:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyeditCustomerBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="662" started-at="2020-09-05T23:14:03 IST" finished-at="2020-09-05T23:14:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="8628" started-at="2020-09-05T23:14:04 IST" finished-at="2020-09-05T23:14:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifylogoutBtnTest()[pri:2, instance:com.qa.test.HomePageTest@6895a785]" name="verifylogoutBtnTest" duration-ms="4793" started-at="2020-09-05T23:14:13 IST" finished-at="2020-09-05T23:14:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifylogoutBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="713" started-at="2020-09-05T23:14:18 IST" finished-at="2020-09-05T23:14:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="9696" started-at="2020-09-05T23:14:18 IST" finished-at="2020-09-05T23:14:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifyminiStatementBtnTest()[pri:3, instance:com.qa.test.HomePageTest@6895a785]" name="verifyminiStatementBtnTest" duration-ms="1535" started-at="2020-09-05T23:14:28 IST" finished-at="2020-09-05T23:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyminiStatementBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="701" started-at="2020-09-05T23:14:30 IST" finished-at="2020-09-05T23:14:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="11339" started-at="2020-09-05T23:14:30 IST" finished-at="2020-09-05T23:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="PASS" signature="verifyHomePageTitleTest()[pri:4, instance:com.qa.test.HomePageTest@6895a785]" name="verifyHomePageTitleTest" duration-ms="20" started-at="2020-09-05T23:14:42 IST" finished-at="2020-09-05T23:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyHomePageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="752" started-at="2020-09-05T23:14:42 IST" finished-at="2020-09-05T23:14:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="29612" started-at="2020-09-05T23:14:42 IST" finished-at="2020-09-05T23:15:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startUp -->
+        <test-method status="FAIL" signature="verifynewAccountBtnTest()[pri:4, instance:com.qa.test.HomePageTest@6895a785]" name="verifynewAccountBtnTest" duration-ms="36293" started-at="2020-09-05T23:15:12 IST" finished-at="2020-09-05T23:15:48 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":".//div//a[contains(text(),'New Account')]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8e744fdf2134f0701f8a1e14f8b3ddea]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 540bfa5693c305c1eced34078d26c4ed
+*** Element info: {Using=xpath, value=.//div//a[contains(text(),'New Account')]}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//div//a[contains(text(),'New Account')]"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:49992}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 8e744fdf2134f0701f8a1e14f8b3ddea
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:51913}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 540bfa5693c305c1eced34078d26c4ed
+*** Element info: {Using=xpath, value=.//div//a[contains(text(),'New Account')]}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest.verifyLoginTest(Day06VerifyLoginWithScreenshotTest.java:63)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.click(Unknown Source)
+at com.qa.pages.HomePage.verifynewAccountBtn(HomePage.java:97)
+at com.qa.test.HomePageTest.verifynewAccountBtnTest(HomePageTest.java:81)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -140,63 +203,66 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="835" started-at="2020-09-04T23:47:40 IST" finished-at="2020-09-04T23:47:40 IST">
+        </test-method> <!-- verifynewAccountBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-09-05T23:15:48 IST" finished-at="2020-09-05T23:15:49 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="8886" started-at="2020-09-04T23:47:40 IST" finished-at="2020-09-04T23:47:49 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="3116" started-at="2020-09-04T23:47:49 IST" data-provider="testData" finished-at="2020-09-04T23:47:52 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr280518]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[ApFmYA]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        <test-method status="FAIL" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="startUp" is-config="true" duration-ms="54523" started-at="2020-09-05T23:15:49 IST" finished-at="2020-09-05T23:16:43 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2ed6ecdbc28b2c7b4e0d3e976326e3c8]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 454394284766e82e30e04f0b4f44bcc7
+*** Element info: {Using=name, value=uid}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50034}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 2ed6ecdbc28b2c7b4e0d3e976326e3c8
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 454394284766e82e30e04f0b4f44bcc7
+*** Element info: {Using=name, value=uid}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest.verifyLoginTest(Day06VerifyLoginWithScreenshotTest.java:63)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at com.qa.pages.LoginPage.verifyLoginBtn(LoginPage.java:44)
+at com.qa.test.HomePageTest.startUp(HomePageTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
@@ -221,63 +287,62 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="1543" started-at="2020-09-04T23:47:52 IST" finished-at="2020-09-04T23:47:54 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="8073" started-at="2020-09-04T23:47:54 IST" finished-at="2020-09-04T23:48:02 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="2104" started-at="2020-09-04T23:48:02 IST" data-provider="testData" finished-at="2020-09-04T23:48:04 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[mngr280517]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[LpwQdE]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
+        </test-method> <!-- startUp -->
+        <test-method status="SKIP" signature="verifyManagerIdTest()[pri:5, instance:com.qa.test.HomePageTest@6895a785]" name="verifyManagerIdTest" duration-ms="0" started-at="2020-09-05T23:16:43 IST" finished-at="2020-09-05T23:16:43 IST">
+          <exception class="org.openqa.selenium.NoSuchElementException">
             <message>
-              <![CDATA[unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 08c0ecb26dccdf88d4835d2a3b8111e0]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 454394284766e82e30e04f0b4f44bcc7
+*** Element info: {Using=name, value=uid}]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
-  (Session info: chrome=85.0.4183.83): User or Password is not valid
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"*[name='uid']"}
+  (Session info: chrome=85.0.4183.83)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
-System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.43.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
+System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.103', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:50081}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 08c0ecb26dccdf88d4835d2a3b8111e0
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.83, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:52001}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 454394284766e82e30e04f0b4f44bcc7
+*** Element info: {Using=name, value=uid}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+at java.lang.reflect.Constructor.newInstance(Unknown Source)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
-at org.openqa.selenium.remote.RemoteWebDriver.getTitle(RemoteWebDriver.java:281)
-at DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest.verifyLoginTest(Day06VerifyLoginWithScreenshotTest.java:63)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:404)
+at org.openqa.selenium.By$ByName.findElement(By.java:284)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy9.sendKeys(Unknown Source)
+at com.qa.pages.LoginPage.verifyLoginBtn(LoginPage.java:44)
+at com.qa.test.HomePageTest.startUp(HomePageTest.java:27)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 at java.lang.reflect.Method.invoke(Unknown Source)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:64)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:364)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:318)
+at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
 at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
@@ -302,15 +367,15 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-09-04T23:48:04 IST" finished-at="2020-09-04T23:48:05 IST">
+        </test-method> <!-- verifyManagerIdTest -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@6895a785]" name="tearDown" is-config="true" duration-ms="-1599328003937" started-at="2020-09-05T23:16:43 IST" finished-at="1970-01-01T05:30:00 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest -->
+      </class> <!-- com.qa.test.HomePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
