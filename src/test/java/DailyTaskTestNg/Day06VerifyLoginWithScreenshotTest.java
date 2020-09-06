@@ -65,7 +65,7 @@ public class Day06VerifyLoginWithScreenshotTest extends TestBase
 		String managerId = driver.findElement(By.xpath("//tr[@class='heading3']//td")).getText();
 		System.out.println("Welcome "+managerId); 
 		Assert.assertEquals(managerId, ("Manger Id : "+prop.getProperty("username")));
-		System.out.println("123456");
+//		System.out.println(System.getProperty("user.dir"));
 		TestUtil.takeScreenshot();
 	}
 	
