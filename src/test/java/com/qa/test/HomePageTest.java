@@ -9,7 +9,7 @@ import com.qa.base.TestBase;
 import com.qa.pages.HomePage;
 import com.qa.pages.LoginPage;
 
-public class HomePageTest extends TestBase
+public class HomePageTest extends TestBase	//two test pending
 {
 	LoginPage loginPage;
 	HomePage homePage;
@@ -66,15 +66,15 @@ public class HomePageTest extends TestBase
 	}
 	
 
-//	@Test
-//	public void verifydeleteCustomerBtnTest()
-//	{
-//		homePage.verifydeleteCustomerBtn();
-//		String deleteCustomerTitle = driver.getTitle();
-//		System.out.println(deleteCustomerTitle);
-//		Assert.assertEquals(deleteCustomerTitle, "Guru99 Bank Delete Customer Page");
-//	}
-//
+	@Test
+	public void verifydeleteCustomerBtnTest() //working
+	{
+		homePage.verifydeleteCustomerBtn();
+		String deleteCustomerTitle = driver.getTitle();
+		System.out.println(deleteCustomerTitle);
+		Assert.assertEquals(deleteCustomerTitle, "Guru99 Bank Delete Customer Page");
+	}
+
 	@Test(priority = 4)
 	public void verifynewAccountBtnTest() //working
 	{

@@ -18,8 +18,8 @@ public class HomePage extends TestBase
 	@FindBy(xpath="//a[contains(text(),'Edit Customer')]")
 	WebElement editCustomerBtn;
 	
-//	@FindBy(xpath="//a[contains(text(),'New Customer')]")
-//	WebElement deleteCustomerBtn;
+	@FindBy(xpath="//ul[@class='menusubnav']//a[contains(text(),'Delete Customer')]")
+	WebElement deleteCustomerBtn;
 	
 	@FindBy(xpath=".//div//a[contains(text(),'New Account')]")
 	WebElement newAccountBtn;
@@ -86,11 +86,11 @@ public class HomePage extends TestBase
 		return new EditCustomerPage();
 	}
 	
-//	public DeleteCustomerPage verifydeleteCustomerBtn()
-//	{
-//		deleteCustomerBtn.click();
-//		return new DeleteCustomerPage();
-//	}
+	public DeleteCustomerPage verifydeleteCustomerBtn()
+	{
+		deleteCustomerBtn.click();
+		return new DeleteCustomerPage();
+	}
 	
 	public NewAccountPage verifynewAccountBtn()
 	{
