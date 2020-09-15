@@ -1,49 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="53030" started-at="2020-09-08T01:28:34 IST" finished-at="2020-09-08T01:29:27 IST">
+  <suite name="Default suite" duration-ms="10261" started-at="2020-09-15T23:43:45 IST" finished-at="2020-09-15T23:43:55 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="53030" started-at="2020-09-08T01:28:34 IST" finished-at="2020-09-08T01:29:27 IST">
-      <class name="com.qa.test.DeleteAccountPageTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="11452" started-at="2020-09-08T01:28:34 IST" finished-at="2020-09-08T01:28:45 IST">
+    <test name="Default test" duration-ms="10261" started-at="2020-09-15T23:43:45 IST" finished-at="2020-09-15T23:43:55 IST">
+      <class name="DailyTaskTestNg.Day01VerifyLoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day01VerifyLoginTest@4e7dc304]" name="setUp" is-config="true" duration-ms="7660" started-at="2020-09-15T23:43:45 IST" finished-at="2020-09-15T23:43:52 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyDeleteAccountPageTitleTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyDeleteAccountPageTitleTest" duration-ms="2021" started-at="2020-09-08T01:28:45 IST" finished-at="2020-09-08T01:28:47 IST">
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:DailyTaskTestNg.Day01VerifyLoginTest@4e7dc304]" name="verifyLoginTest" duration-ms="1759" started-at="2020-09-15T23:43:52 IST" finished-at="2020-09-15T23:43:54 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyDeleteAccountPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="741" started-at="2020-09-08T01:28:47 IST" finished-at="2020-09-08T01:28:48 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="9490" started-at="2020-09-08T01:28:48 IST" finished-at="2020-09-08T01:28:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyResetBtnTest" duration-ms="232" started-at="2020-09-08T01:28:58 IST" finished-at="2020-09-08T01:28:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyResetBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="617" started-at="2020-09-08T01:28:58 IST" finished-at="2020-09-08T01:28:59 IST">
+        </test-method> <!-- verifyLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day01VerifyLoginTest@4e7dc304]" name="tearDown" is-config="true" duration-ms="787" started-at="2020-09-15T23:43:54 IST" finished-at="2020-09-15T23:43:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="25527" started-at="2020-09-08T01:28:59 IST" finished-at="2020-09-08T01:29:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifySubmitBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifySubmitBtnTest" duration-ms="2219" started-at="2020-09-08T01:29:24 IST" finished-at="2020-09-08T01:29:26 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySubmitBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="663" started-at="2020-09-08T01:29:26 IST" finished-at="2020-09-08T01:29:27 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.qa.test.DeleteAccountPageTest -->
+      </class> <!-- DailyTaskTestNg.Day01VerifyLoginTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
