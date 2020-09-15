@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="11386" started-at="2020-09-16T00:14:11 IST" finished-at="2020-09-16T00:14:22 IST">
+  <suite name="Default suite" duration-ms="12564" started-at="2020-09-16T01:18:31 IST" finished-at="2020-09-16T01:18:44 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="11386" started-at="2020-09-16T00:14:11 IST" finished-at="2020-09-16T00:14:22 IST">
+    <test name="Default test" duration-ms="12564" started-at="2020-09-16T01:18:31 IST" finished-at="2020-09-16T01:18:44 IST">
       <class name="DailyTaskTestNg.Day02VerifyLoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="setUp" is-config="true" duration-ms="7578" started-at="2020-09-16T00:14:11 IST" finished-at="2020-09-16T00:14:18 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="setUp" is-config="true" duration-ms="8497" started-at="2020-09-16T01:18:31 IST" finished-at="2020-09-16T01:18:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="verifyLoginTest" duration-ms="2614" started-at="2020-09-16T00:14:18 IST" finished-at="2020-09-16T00:14:21 IST">
+        <test-method status="PASS" signature="verifyLoginTest()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="verifyLoginTest" duration-ms="3320" started-at="2020-09-16T01:18:40 IST" finished-at="2020-09-16T01:18:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1137" started-at="2020-09-16T00:14:21 IST" finished-at="2020-09-16T00:14:22 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day02VerifyLoginTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="689" started-at="2020-09-16T01:18:43 IST" finished-at="2020-09-16T01:18:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
