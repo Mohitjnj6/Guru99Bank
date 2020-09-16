@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="35993" started-at="2020-09-17T01:39:46 IST" finished-at="2020-09-17T01:40:22 IST">
+  <suite name="Default suite" duration-ms="36714" started-at="2020-09-17T01:41:31 IST" finished-at="2020-09-17T01:42:08 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="35993" started-at="2020-09-17T01:39:46 IST" finished-at="2020-09-17T01:40:22 IST">
+    <test name="Default test" duration-ms="36714" started-at="2020-09-17T01:41:31 IST" finished-at="2020-09-17T01:42:08 IST">
       <class name="com.qa.test.DeleteAccountPageTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="10118" started-at="2020-09-17T01:39:47 IST" finished-at="2020-09-17T01:39:57 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="9928" started-at="2020-09-17T01:41:31 IST" finished-at="2020-09-17T01:41:41 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyDeleteAccountPageTitleTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyDeleteAccountPageTitleTest" duration-ms="2167" started-at="2020-09-17T01:39:57 IST" finished-at="2020-09-17T01:39:59 IST">
+        <test-method status="PASS" signature="verifyDeleteAccountPageTitleTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyDeleteAccountPageTitleTest" duration-ms="2016" started-at="2020-09-17T01:41:41 IST" finished-at="2020-09-17T01:41:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyDeleteAccountPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="715" started-at="2020-09-17T01:39:59 IST" finished-at="2020-09-17T01:40:00 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="627" started-at="2020-09-17T01:41:43 IST" finished-at="2020-09-17T01:41:44 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="9188" started-at="2020-09-17T01:40:00 IST" finished-at="2020-09-17T01:40:09 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="9771" started-at="2020-09-17T01:41:44 IST" finished-at="2020-09-17T01:41:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyResetBtnTest" duration-ms="250" started-at="2020-09-17T01:40:09 IST" finished-at="2020-09-17T01:40:09 IST">
+        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifyResetBtnTest" duration-ms="247" started-at="2020-09-17T01:41:54 IST" finished-at="2020-09-17T01:41:54 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1212" started-at="2020-09-17T01:40:09 IST" finished-at="2020-09-17T01:40:10 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="672" started-at="2020-09-17T01:41:54 IST" finished-at="2020-09-17T01:41:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="9188" started-at="2020-09-17T01:40:10 IST" finished-at="2020-09-17T01:40:19 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="10455" started-at="2020-09-17T01:41:55 IST" finished-at="2020-09-17T01:42:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifySubmitBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifySubmitBtnTest" duration-ms="2433" started-at="2020-09-17T01:40:19 IST" finished-at="2020-09-17T01:40:22 IST">
+        <test-method status="PASS" signature="verifySubmitBtnTest()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="verifySubmitBtnTest" duration-ms="2243" started-at="2020-09-17T01:42:05 IST" finished-at="2020-09-17T01:42:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySubmitBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="653" started-at="2020-09-17T01:40:22 IST" finished-at="2020-09-17T01:40:22 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.DeleteAccountPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="688" started-at="2020-09-17T01:42:07 IST" finished-at="2020-09-17T01:42:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
