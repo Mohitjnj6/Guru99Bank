@@ -1,11 +1,15 @@
 package DailyTaskTestNg;
 
+import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.Assert;
@@ -66,7 +70,12 @@ public class Day06VerifyLoginWithScreenshotTest extends TestBase
 		System.out.println("Welcome "+managerId); 
 		Assert.assertEquals(managerId, ("Manger Id : "+prop.getProperty("username")));
 //		System.out.println(System.getProperty("user.dir"));
-		TestUtil.takeScreenshot();
+//		TestUtil.takeScreenshot();
+		
+		File file = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+		//FileUtils.copyFile(file,new File (".\\screenShots\\"+filename+".jpg"));
+		//FileUtils.copyFile(file, new File ("C:\\Users\\Samsung\\eclipse-workspace\\Guru99Bank\\screenShots\\"+System.currentTimeMillis()+".jpg"));
+		FileUtils.copyFile(file, new File ("C:\\Users\\Samsung\\Desktop\\New folder\\"+System.currentTimeMillis()+".jpg"));
 	}
 	
 	
