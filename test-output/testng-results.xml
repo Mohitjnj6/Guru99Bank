@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" ignored="0" total="4" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="34847" started-at="2020-09-18T00:49:18 IST" finished-at="2020-09-18T00:49:53 IST">
+  <suite name="Default suite" duration-ms="33579" started-at="2020-09-18T00:51:07 IST" finished-at="2020-09-18T00:51:40 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="34847" started-at="2020-09-18T00:49:18 IST" finished-at="2020-09-18T00:49:53 IST">
+    <test name="Default test" duration-ms="33579" started-at="2020-09-18T00:51:07 IST" finished-at="2020-09-18T00:51:40 IST">
       <class name="DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="7138" started-at="2020-09-18T00:49:18 IST" finished-at="2020-09-18T00:49:26 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6992" started-at="2020-09-18T00:51:07 IST" finished-at="2020-09-18T00:51:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="2282" started-at="2020-09-18T00:49:26 IST" data-provider="testData" finished-at="2020-09-18T00:49:28 IST">
+        <test-method status="PASS" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="2221" started-at="2020-09-18T00:51:14 IST" data-provider="testData" finished-at="2020-09-18T00:51:17 IST">
           <params>
             <param index="0">
               <value>
@@ -27,15 +27,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="651" started-at="2020-09-18T00:49:28 IST" finished-at="2020-09-18T00:49:28 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="650" started-at="2020-09-18T00:51:17 IST" finished-at="2020-09-18T00:51:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6436" started-at="2020-09-18T00:49:28 IST" finished-at="2020-09-18T00:49:35 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6410" started-at="2020-09-18T00:51:17 IST" finished-at="2020-09-18T00:51:24 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="747" started-at="2020-09-18T00:49:35 IST" data-provider="testData" finished-at="2020-09-18T00:49:36 IST">
+        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="652" started-at="2020-09-18T00:51:24 IST" data-provider="testData" finished-at="2020-09-18T00:51:24 IST">
           <params>
             <param index="0">
               <value>
@@ -55,8 +55,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 79720906963e505d59377423cfbd0780]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6e1529bf55bd8c1e084bebf59c64a9b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
@@ -64,8 +64,8 @@ Session ID: 79720906963e505d59377423cfbd0780]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54517}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 79720906963e505d59377423cfbd0780
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54713}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b6e1529bf55bd8c1e084bebf59c64a9b
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -108,15 +108,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="724" started-at="2020-09-18T00:49:36 IST" finished-at="2020-09-18T00:49:36 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-09-18T00:51:24 IST" finished-at="2020-09-18T00:51:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6452" started-at="2020-09-18T00:49:36 IST" finished-at="2020-09-18T00:49:43 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6271" started-at="2020-09-18T00:51:25 IST" finished-at="2020-09-18T00:51:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="644" started-at="2020-09-18T00:49:43 IST" data-provider="testData" finished-at="2020-09-18T00:49:44 IST">
+        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="693" started-at="2020-09-18T00:51:31 IST" data-provider="testData" finished-at="2020-09-18T00:51:32 IST">
           <params>
             <param index="0">
               <value>
@@ -136,8 +136,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4ca1d4fdf8d0a95443bd18a2d4583d57]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 91d30276a7e86f1c5b52a085b1e758a1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
@@ -145,8 +145,8 @@ Session ID: 4ca1d4fdf8d0a95443bd18a2d4583d57]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54559}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 4ca1d4fdf8d0a95443bd18a2d4583d57
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54755}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 91d30276a7e86f1c5b52a085b1e758a1
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -189,15 +189,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="708" started-at="2020-09-18T00:49:44 IST" finished-at="2020-09-18T00:49:44 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="651" started-at="2020-09-18T00:51:32 IST" finished-at="2020-09-18T00:51:33 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6822" started-at="2020-09-18T00:49:44 IST" finished-at="2020-09-18T00:49:51 IST">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="setUp" is-config="true" duration-ms="6117" started-at="2020-09-18T00:51:33 IST" finished-at="2020-09-18T00:51:39 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="744" started-at="2020-09-18T00:49:51 IST" data-provider="testData" finished-at="2020-09-18T00:49:52 IST">
+        <test-method status="FAIL" signature="verifyLoginTest(java.lang.String, java.lang.String)[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="verifyLoginTest" duration-ms="908" started-at="2020-09-18T00:51:39 IST" data-provider="testData" finished-at="2020-09-18T00:51:40 IST">
           <params>
             <param index="0">
               <value>
@@ -217,8 +217,8 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d699c17a4668738429681e7b0934b58c]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4dab4dce0e422b24e3c68088d6be29db]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : User or Password is not valid}
@@ -226,8 +226,8 @@ Session ID: d699c17a4668738429681e7b0934b58c]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:25:53'
 System info: host: 'DESKTOP-L1EA06Q', ip: '192.168.0.105', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_261'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54602}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: d699c17a4668738429681e7b0934b58c
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: C:\Users\Samsung\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:54799}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: 4dab4dce0e422b24e3c68088d6be29db
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -270,7 +270,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="765" started-at="2020-09-18T00:49:52 IST" finished-at="2020-09-18T00:49:53 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:DailyTaskTestNg.Day06VerifyLoginWithScreenshotTest@394e1a0f]" name="tearDown" is-config="true" duration-ms="646" started-at="2020-09-18T00:51:40 IST" finished-at="2020-09-18T00:51:40 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
