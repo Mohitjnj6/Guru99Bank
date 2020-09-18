@@ -2,56 +2,56 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="36900" started-at="2020-09-19T00:42:20 IST" finished-at="2020-09-19T00:42:56 IST">
+  <suite name="Default suite" duration-ms="35102" started-at="2020-09-19T00:55:16 IST" finished-at="2020-09-19T00:55:51 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="36900" started-at="2020-09-19T00:42:20 IST" finished-at="2020-09-19T00:42:56 IST">
+    <test name="Default test" duration-ms="35102" started-at="2020-09-19T00:55:16 IST" finished-at="2020-09-19T00:55:51 IST">
       <class name="com.qa.test.LoginPageTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="10026" started-at="2020-09-19T00:42:20 IST" finished-at="2020-09-19T00:42:30 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="8823" started-at="2020-09-19T00:55:16 IST" finished-at="2020-09-19T00:55:25 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLoginBtnTest" duration-ms="2169" started-at="2020-09-19T00:42:30 IST" finished-at="2020-09-19T00:42:32 IST">
+        <test-method status="PASS" signature="verifyLoginBtnTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLoginBtnTest" duration-ms="2078" started-at="2020-09-19T00:55:25 IST" finished-at="2020-09-19T00:55:27 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="862" started-at="2020-09-19T00:42:32 IST" finished-at="2020-09-19T00:42:33 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="642" started-at="2020-09-19T00:55:27 IST" finished-at="2020-09-19T00:55:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="7484" started-at="2020-09-19T00:42:33 IST" finished-at="2020-09-19T00:42:40 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="6744" started-at="2020-09-19T00:55:28 IST" finished-at="2020-09-19T00:55:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLoginPageTitleTest" duration-ms="8" started-at="2020-09-19T00:42:40 IST" finished-at="2020-09-19T00:42:40 IST">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLoginPageTitleTest" duration-ms="13" started-at="2020-09-19T00:55:35 IST" finished-at="2020-09-19T00:55:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="612" started-at="2020-09-19T00:42:40 IST" finished-at="2020-09-19T00:42:41 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="654" started-at="2020-09-19T00:55:35 IST" finished-at="2020-09-19T00:55:35 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="6673" started-at="2020-09-19T00:42:41 IST" finished-at="2020-09-19T00:42:47 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="6808" started-at="2020-09-19T00:55:35 IST" finished-at="2020-09-19T00:55:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyLogoTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLogoTest" duration-ms="130" started-at="2020-09-19T00:42:47 IST" finished-at="2020-09-19T00:42:48 IST">
+        <test-method status="PASS" signature="verifyLogoTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyLogoTest" duration-ms="73" started-at="2020-09-19T00:55:42 IST" finished-at="2020-09-19T00:55:42 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogoTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="648" started-at="2020-09-19T00:42:48 IST" finished-at="2020-09-19T00:42:48 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="615" started-at="2020-09-19T00:55:42 IST" finished-at="2020-09-19T00:55:43 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="6754" started-at="2020-09-19T00:42:48 IST" finished-at="2020-09-19T00:42:55 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="startUp" is-config="true" duration-ms="7095" started-at="2020-09-19T00:55:43 IST" finished-at="2020-09-19T00:55:50 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyResetBtnTest" duration-ms="836" started-at="2020-09-19T00:42:55 IST" finished-at="2020-09-19T00:42:56 IST">
+        <test-method status="PASS" signature="verifyResetBtnTest()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="verifyResetBtnTest" duration-ms="828" started-at="2020-09-19T00:55:50 IST" finished-at="2020-09-19T00:55:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyResetBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="631" started-at="2020-09-19T00:42:56 IST" finished-at="2020-09-19T00:42:56 IST">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.LoginPageTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="655" started-at="2020-09-19T00:55:51 IST" finished-at="2020-09-19T00:55:51 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
