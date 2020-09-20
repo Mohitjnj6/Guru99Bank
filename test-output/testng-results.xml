@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="12" total="13" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="21329" started-at="2020-09-21T00:24:23 IST" finished-at="2020-09-21T00:24:44 IST">
+  <suite name="Default suite" duration-ms="14579" started-at="2020-09-21T00:25:51 IST" finished-at="2020-09-21T00:26:06 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="21329" started-at="2020-09-21T00:24:23 IST" finished-at="2020-09-21T00:24:44 IST">
+    <test name="Default test" duration-ms="14579" started-at="2020-09-21T00:25:51 IST" finished-at="2020-09-21T00:26:06 IST">
       <class name="com.qa.test.HomePageTest">
-        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="startUp" is-config="true" duration-ms="18730" started-at="2020-09-21T00:24:23 IST" finished-at="2020-09-21T00:24:42 IST">
+        <test-method status="PASS" signature="startUp()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="startUp" is-config="true" duration-ms="12285" started-at="2020-09-21T00:25:51 IST" finished-at="2020-09-21T00:26:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startUp -->
-        <test-method status="PASS" signature="verifyeditAccountBtnTest()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="verifyeditAccountBtnTest" duration-ms="1776" started-at="2020-09-21T00:24:42 IST" finished-at="2020-09-21T00:24:43 IST">
+        <test-method status="PASS" signature="verifydeleteAccountBtnTest()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="verifydeleteAccountBtnTest" duration-ms="1536" started-at="2020-09-21T00:26:03 IST" finished-at="2020-09-21T00:26:05 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyeditAccountBtnTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="tearDown" is-config="true" duration-ms="759" started-at="2020-09-21T00:24:43 IST" finished-at="2020-09-21T00:24:44 IST">
+        </test-method> <!-- verifydeleteAccountBtnTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.test.HomePageTest@56aac163]" name="tearDown" is-config="true" duration-ms="678" started-at="2020-09-21T00:26:05 IST" finished-at="2020-09-21T00:26:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
