@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1541596733\testng-customsuite.xml</span>
+                    <span>C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1428112645\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">4 methods,   4 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,22 +104,7 @@
                     <div class="method-list-content passed suite-Default_suite">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.LoginPageTest" hash-for-method="verifyLoginBtnTest">verifyLoginBtnTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.LoginPageTest" hash-for-method="verifyLogoTest">verifyLogoTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.LoginPageTest" hash-for-method="verifyResetBtnTest">verifyResetBtnTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.qa.test.HomePageTest" hash-for-method="verifyManagerIdTest">verifyManagerIdTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Default_suite -->
@@ -137,35 +122,14 @@
           <div class="suite-Default_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">com.qa.test.LoginPageTest</span>
+              <span class="class-name">com.qa.test.HomePageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="verifyLoginBtnTest">
-                  </a> <!-- verifyLoginBtnTest -->
-                  <span class="method-name">verifyLoginBtnTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageTitleTest">
-                  </a> <!-- verifyLoginPageTitleTest -->
-                  <span class="method-name">verifyLoginPageTitleTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLogoTest">
-                  </a> <!-- verifyLogoTest -->
-                  <span class="method-name">verifyLogoTest</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyResetBtnTest">
-                  </a> <!-- verifyResetBtnTest -->
-                  <span class="method-name">verifyResetBtnTest</span>
+                  <a name="verifyManagerIdTest">
+                  </a> <!-- verifyManagerIdTest -->
+                  <span class="method-name">verifyManagerIdTest</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -173,7 +137,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1541596733\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Samsung\AppData\Local\Temp\testng-eclipse-1428112645\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -182,7 +146,11 @@
 &lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;com.qa.test.LoginPageTest&quot;/&gt;
+      &lt;class name=&quot;com.qa.test.HomePageTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;verifyManagerIdTest&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.qa.test.HomePageTest --&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Default test --&gt;
 &lt;/suite&gt; &lt;!-- Default suite --&gt;
@@ -222,28 +190,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(4);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'verifyLoginBtnTest')
-data.setCell(0, 2, 'com.qa.test.LoginPageTest')
-data.setCell(0, 3, 2452);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyResetBtnTest')
-data.setCell(1, 2, 'com.qa.test.LoginPageTest')
-data.setCell(1, 3, 733);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifyLogoTest')
-data.setCell(2, 2, 'com.qa.test.LoginPageTest')
-data.setCell(2, 3, 80);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'verifyLoginPageTitleTest')
-data.setCell(3, 2, 'com.qa.test.LoginPageTest')
-data.setCell(3, 3, 9);
+data.setCell(0, 1, 'verifyManagerIdTest')
+data.setCell(0, 2, 'com.qa.test.HomePageTest')
+data.setCell(0, 3, 728);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 728 ms</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -258,9 +214,38 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">0 ignored methods</span>
+            <span class="header-content">12 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.qa.test.HomePageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">verifynewCustomerBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyminiStatementBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyHomePageTitleTest</span>
+                <br/>
+                <span class="ignored-method-name">verifybalanceEnquiryBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifydeleteAccountBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyeditCustomerBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifycustomisedStatementBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifylogoutBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifychangePasswordBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifydeleteCustomerBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifynewAccountBtnTest</span>
+                <br/>
+                <span class="ignored-method-name">verifyeditAccountBtnTest</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Default_suite" class="panel">
@@ -269,54 +254,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.qa.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.qa.test.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">startUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">verifyLoginBtnTest</span>
-                <span class="method-start">7860 ms</span>
+                <span class="method-name">verifyManagerIdTest</span>
+                <span class="method-start">34038 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">10316 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startUp</span>
-                <span class="method-start">14467 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">21392 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">21404 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startUp</span>
-                <span class="method-start">22044 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyLogoTest</span>
-                <span class="method-start">28470 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">28551 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">startUp</span>
-                <span class="method-start">29688 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">verifyResetBtnTest</span>
-                <span class="method-start">36859 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">tearDown</span>
-                <span class="method-start">37594 ms</span>
+                <span class="method-start">34783 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
